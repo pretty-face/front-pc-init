@@ -1,5 +1,6 @@
 const errorHandle = (err) => {
-  console.log(err)
+  /* eslint-disable */
+  console.log("errorHandle -> err", err)
 }
 
 export default errorHandle
